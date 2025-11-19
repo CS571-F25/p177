@@ -1,0 +1,395 @@
+[
+  {
+    "name": "Sushi Rolls",
+    "country": "Japan",
+    "nutrition": {"calories": 250, "protein_g": 12, "fat_g": 4, "carbs_g": 42, "sodium_mg": 450, "fiber_g": 3, "sugar_g": 2},
+    "ingredients": [
+      "2 cups sushi rice",
+      "3 tbsp rice vinegar",
+      "1 tsp sugar",
+      "1/2 tsp salt",
+      "4 sheets nori",
+      "1/2 cucumber, sliced",
+      "1/2 avocado, sliced",
+      "4 oz fresh salmon or crab"
+    ],
+    "directions": [
+      "Cook sushi rice according to package instructions.",
+      "Mix rice vinegar, sugar, and salt; fold into cooked rice.",
+      "Place nori on bamboo mat and spread rice evenly over it.",
+      "Arrange cucumber, avocado, and fish on rice.",
+      "Roll tightly using the mat and slice into 6–8 pieces.",
+      "Serve immediately with soy sauce."
+    ]
+  },
+  {
+    "name": "Tonkatsu",
+    "country": "Japan",
+    "nutrition": {"calories": 400, "protein_g": 28, "fat_g": 20, "carbs_g": 25, "sodium_mg": 600, "fiber_g": 2, "sugar_g": 3},
+    "ingredients": [
+      "2 pork cutlets",
+      "Salt and pepper",
+      "1/2 cup flour",
+      "1 egg, beaten",
+      "1 cup panko breadcrumbs",
+      "Oil for frying"
+    ],
+    "directions": [
+      "Season pork cutlets with salt and pepper.",
+      "Dredge cutlets in flour, dip in beaten egg, then coat with panko.",
+      "Heat oil in a skillet over medium heat.",
+      "Fry cutlets until golden brown and cooked through, about 4–5 min per side.",
+      "Drain on paper towels, slice, and serve with tonkatsu sauce."
+    ]
+  },
+  {
+    "name": "Ramen",
+    "country": "Japan",
+    "nutrition": {"calories": 450, "protein_g": 18, "fat_g": 14, "carbs_g": 60, "sodium_mg": 900, "fiber_g": 3, "sugar_g": 2},
+    "ingredients": [
+      "4 cups chicken broth",
+      "2 packs ramen noodles",
+      "2 boiled eggs",
+      "1/2 cup sliced pork belly",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "Green onions for garnish"
+    ],
+    "directions": [
+      "Bring chicken broth to a simmer in a pot.",
+      "Add soy sauce and sesame oil to the broth.",
+      "Cook ramen noodles separately according to package instructions.",
+      "Slice boiled eggs and pork belly.",
+      "Divide noodles into bowls and pour hot broth over them.",
+      "Top with pork, eggs, and green onions before serving."
+    ]
+  },
+  {
+    "name": "Okonomiyaki",
+    "country": "Japan",
+    "nutrition": {"calories": 520, "protein_g": 22, "fat_g": 26, "carbs_g": 50, "sodium_mg": 800, "fiber_g": 4, "sugar_g": 4},
+    "ingredients": [
+      "1 cup flour",
+      "2/3 cup dashi or water",
+      "1 egg",
+      "2 cups shredded cabbage",
+      "2 slices bacon",
+      "Okonomiyaki sauce",
+      "Mayonnaise"
+    ],
+    "directions": [
+      "Mix flour, dashi, and egg to make batter.",
+      "Fold in shredded cabbage until well combined.",
+      "Heat skillet over medium heat and pour batter onto it.",
+      "Lay bacon slices on top and cook until bottom is golden, about 4 min.",
+      "Flip and cook the other side until bacon is crispy and batter is cooked through.",
+      "Drizzle with okonomiyaki sauce and mayonnaise before serving."
+    ]
+  },
+  {
+    "name": "Miso Soup",
+    "country": "Japan",
+    "nutrition": {"calories": 80, "protein_g": 6, "fat_g": 3, "carbs_g": 7, "sodium_mg": 700, "fiber_g": 1, "sugar_g": 1},
+    "ingredients": [
+      "3 cups dashi",
+      "2 tbsp miso paste",
+      "1/2 cup tofu cubes",
+      "1 tbsp wakame seaweed",
+      "2 green onions"
+    ],
+    "directions": [
+      "Heat dashi in a pot over medium heat until warm.",
+      "Whisk in miso paste until fully dissolved.",
+      "Add tofu cubes and wakame, simmer for 2–3 min.",
+      "Slice green onions and sprinkle on top.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Gyudon (Beef Bowl)",
+    "country": "Japan",
+    "nutrition": {"calories": 520, "protein_g": 28, "fat_g": 20, "carbs_g": 55, "sodium_mg": 800, "fiber_g": 3, "sugar_g": 4},
+    "ingredients": [
+      "1/2 lb thinly sliced beef",
+      "1 onion, sliced",
+      "2 tbsp soy sauce",
+      "2 tbsp mirin",
+      "1 tbsp sugar",
+      "2 cups cooked rice"
+    ],
+    "directions": [
+      "Combine soy sauce, mirin, and sugar in a pan over medium heat.",
+      "Add sliced onion and cook until soft, about 3–4 min.",
+      "Add beef and cook until browned, about 2–3 min.",
+      "Divide cooked rice into bowls and top with beef mixture.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Tempura",
+    "country": "Japan",
+    "nutrition": {"calories": 340, "protein_g": 12, "fat_g": 18, "carbs_g": 30, "sodium_mg": 500, "fiber_g": 2, "sugar_g": 1},
+    "ingredients": [
+      "1/2 cup flour",
+      "1/2 cup ice water",
+      "1 egg",
+      "Shrimp and vegetables",
+      "Oil for frying"
+    ],
+    "directions": [
+      "Beat egg lightly and mix with ice water.",
+      "Add flour and stir lightly; do not overmix.",
+      "Heat oil in a deep pan to 350°F.",
+      "Dip shrimp and vegetables in batter and fry until golden, about 2–3 min.",
+      "Drain on paper towels and serve with dipping sauce."
+    ]
+  },
+  {
+    "name": "Onigiri (Rice Balls)",
+    "country": "Japan",
+    "nutrition": {"calories": 180, "protein_g": 5, "fat_g": 1, "carbs_g": 38, "sodium_mg": 300, "fiber_g": 2, "sugar_g": 1},
+    "ingredients": [
+      "2 cups cooked rice",
+      "Salt to taste",
+      "Nori sheets",
+      "Fillings (tuna mayo, umeboshi, or salmon)"
+    ],
+    "directions": [
+      "Wet hands with water and sprinkle lightly with salt.",
+      "Take a handful of rice and make an indentation in the center.",
+      "Place filling inside and shape rice into a triangle.",
+      "Wrap with a strip of nori.",
+      "Serve immediately or store wrapped in plastic wrap."
+    ]
+  },
+  {
+    "name": "Katsu Curry",
+    "country": "Japan",
+    "nutrition": {"calories": 650, "protein_g": 30, "fat_g": 28, "carbs_g": 70, "sodium_mg": 900, "fiber_g": 5, "sugar_g": 6},
+    "ingredients": [
+      "1 pork cutlet",
+      "1/2 onion, diced",
+      "1 carrot, chopped",
+      "1 potato, diced",
+      "2 cups Japanese curry sauce",
+      "2 cups cooked rice"
+    ],
+    "directions": [
+      "Fry pork cutlet until golden and cooked through, then slice.",
+      "In a saucepan, sauté onion, carrot, and potato until softened.",
+      "Add Japanese curry sauce and simmer 10 min.",
+      "Serve curry over rice and top with sliced cutlet."
+    ]
+  },
+  {
+    "name": "Yakitori",
+    "country": "Japan",
+    "nutrition": {"calories": 220, "protein_g": 25, "fat_g": 12, "carbs_g": 4, "sodium_mg": 500, "fiber_g": 1, "sugar_g": 2},
+    "ingredients": [
+      "1/2 lb chicken thighs, cubed",
+      "2 tbsp soy sauce",
+      "1 tbsp mirin",
+      "1 tbsp sugar",
+      "Bamboo skewers"
+    ],
+    "directions": [
+      "Soak bamboo skewers in water for 30 min.",
+      "Thread chicken cubes onto skewers.",
+      "Mix soy sauce, mirin, and sugar in a small bowl.",
+      "Grill skewers over medium heat, brushing with sauce, about 5–7 min per side.",
+      "Serve hot."
+    ]
+  },
+  {
+    "name": "Udon Noodle Soup",
+    "country": "Japan",
+    "nutrition": {"calories": 300, "protein_g": 10, "fat_g": 3, "carbs_g": 60, "sodium_mg": 700, "fiber_g": 4, "sugar_g": 2},
+    "ingredients": [
+      "8 oz udon noodles",
+      "3 cups dashi",
+      "2 tbsp soy sauce",
+      "1 tbsp mirin",
+      "Green onions"
+    ],
+    "directions": [
+      "Cook udon noodles according to package instructions and drain.",
+      "Bring dashi to a simmer and add soy sauce and mirin.",
+      "Divide noodles into bowls and pour hot broth over them.",
+      "Top with sliced green onions and serve."
+    ]
+  },
+  {
+    "name": "Tamago Sushi",
+    "country": "Japan",
+    "nutrition": {"calories": 150, "protein_g": 6, "fat_g": 3, "carbs_g": 25, "sodium_mg": 350, "fiber_g": 1, "sugar_g": 2},
+    "ingredients": [
+      "2 eggs",
+      "1 tsp sugar",
+      "1/2 tsp soy sauce",
+      "Sushi rice",
+      "Nori strips"
+    ],
+    "directions": [
+      "Beat eggs with sugar and soy sauce.",
+      "Cook a thin omelet in a non-stick pan and let cool.",
+      "Shape small portions of rice into ovals.",
+      "Place a slice of omelet on each rice portion and wrap with nori.",
+      "Serve immediately."
+    ]
+  },
+  {
+    "name": "Takoyaki",
+    "country": "Japan",
+    "nutrition": {"calories": 420, "protein_g": 18, "fat_g": 20, "carbs_g": 40, "sodium_mg": 600, "fiber_g": 2, "sugar_g": 3},
+    "ingredients": [
+      "1 cup flour",
+      "1 egg",
+      "1 cup dashi",
+      "4 oz boiled octopus, chopped",
+      "Green onions",
+      "Takoyaki sauce"
+    ],
+    "directions": [
+      "Preheat a takoyaki pan and lightly oil each cavity.",
+      "Mix flour, egg, and dashi to make batter.",
+      "Pour batter into each cavity and add a piece of octopus.",
+      "Cook, turning with a skewer, until golden and round, about 6–7 min.",
+      "Top with takoyaki sauce and chopped green onions before serving."
+    ]
+  },
+  {
+    "name": "Matcha Mochi",
+    "country": "Japan",
+    "nutrition": {"calories": 200, "protein_g": 3, "fat_g": 1, "carbs_g": 45, "sodium_mg": 5, "fiber_g": 2, "sugar_g": 12},
+    "ingredients": [
+      "1 cup glutinous rice flour",
+      "3/4 cup water",
+      "1/4 cup sugar",
+      "1 tsp matcha powder"
+    ],
+    "directions": [
+      "Mix rice flour, sugar, matcha, and water until smooth.",
+      "Microwave mixture for 2–3 min, stir halfway through.",
+      "Knead slightly until smooth and let cool.",
+      "Divide into small balls and dust with additional matcha or starch.",
+      "Serve at room temperature."
+    ]
+  },
+  {
+    "name": "Nikujaga",
+    "country": "Japan",
+    "nutrition": {"calories": 380, "protein_g": 18, "fat_g": 10, "carbs_g": 50, "sodium_mg": 700, "fiber_g": 5, "sugar_g": 6},
+    "ingredients": [
+      "1/2 lb sliced beef",
+      "2 potatoes, cubed",
+      "1 onion, sliced",
+      "2 tbsp soy sauce",
+      "1 tbsp sugar",
+      "1 cup dashi"
+    ],
+    "directions": [
+      "Heat a pan over medium heat and cook beef until browned.",
+      "Add onions and cook until soft.",
+      "Add potatoes, dashi, soy sauce, and sugar.",
+      "Simmer until potatoes are tender, about 15 min.",
+      "Serve hot as a main dish."
+    ]
+  },
+  {
+    "name": "Gyoza",
+    "country": "Japan",
+    "nutrition": {"calories": 270, "protein_g": 10, "fat_g": 12, "carbs_g": 28, "sodium_mg": 500, "fiber_g": 2, "sugar_g": 2},
+    "ingredients": [
+      "1/2 lb ground pork",
+      "1 cup cabbage, chopped",
+      "1 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "Gyoza wrappers"
+    ],
+    "directions": [
+      "Mix ground pork, cabbage, soy sauce, and sesame oil for filling.",
+      "Place a small spoonful of filling in the center of each wrapper.",
+      "Fold and seal edges with water.",
+      "Pan-fry gyoza for 2–3 min, then add 1/4 cup water and cover to steam 3–4 min.",
+      "Uncover and cook until bottom is crispy.",
+      "Serve with dipping sauce."
+    ]
+  },
+  {
+    "name": "Karaage (Fried Chicken)",
+    "country": "Japan",
+    "nutrition": {"calories": 450, "protein_g": 30, "fat_g": 25, "carbs_g": 20, "sodium_mg": 600, "fiber_g": 1, "sugar_g": 2},
+    "ingredients": [
+      "1 lb chicken thighs",
+      "2 tbsp soy sauce",
+      "1 tbsp sake",
+      "1 tsp ginger, grated",
+      "1/2 cup potato starch",
+      "Oil for frying"
+    ],
+    "directions": [
+      "Cut chicken into bite-sized pieces.",
+      "Marinate in soy sauce, sake, and ginger for 20 min.",
+      "Coat chicken evenly in potato starch.",
+      "Heat oil to 350°F and fry chicken until golden, about 5–6 min.",
+      "Drain on paper towels and serve immediately."
+    ]
+  },
+  {
+    "name": "Chawanmushi",
+    "country": "Japan",
+    "nutrition": {"calories": 120, "protein_g": 10, "fat_g": 5, "carbs_g": 6, "sodium_mg": 400, "fiber_g": 1, "sugar_g": 1},
+    "ingredients": [
+      "2 eggs",
+      "1 cup dashi",
+      "1 tsp soy sauce",
+      "Mushrooms and shrimp"
+    ],
+    "directions": [
+      "Beat eggs gently and mix with dashi and soy sauce.",
+      "Place mushrooms and shrimp into small cups or ramekins.",
+      "Pour egg mixture over toppings.",
+      "Steam cups in a steamer or pot for 10–12 min until set.",
+      "Serve warm."
+    ]
+  },
+  {
+    "name": "Oyakodon",
+    "country": "Japan",
+    "nutrition": {"calories": 520, "protein_g": 30, "fat_g": 18, "carbs_g": 55, "sodium_mg": 800, "fiber_g": 3, "sugar_g": 3},
+    "ingredients": [
+      "1/2 lb chicken thighs",
+      "1 onion",
+      "2 eggs",
+      "2 tbsp soy sauce",
+      "1 tbsp mirin",
+      "2 cups cooked rice"
+    ],
+    "directions": [
+      "Slice chicken and onion.",
+      "Simmer chicken and onion in soy sauce and mirin for 5–7 min.",
+      "Beat eggs lightly and pour over chicken mixture.",
+      "Cover and cook until eggs are just set, about 2–3 min.",
+      "Serve over cooked rice."
+    ]
+  },
+  {
+    "name": "Dorayaki",
+    "country": "Japan",
+    "nutrition": {"calories": 310, "protein_g": 6, "fat_g": 8, "carbs_g": 55, "sodium_mg": 250, "fiber_g": 2, "sugar_g": 30},
+    "ingredients": [
+      "1 cup flour",
+      "2 eggs",
+      "1/2 cup sugar",
+      "1 tbsp honey",
+      "1/2 cup red bean paste"
+    ],
+    "directions": [
+      "Mix eggs, sugar, and honey until smooth.",
+      "Fold in flour to create pancake batter.",
+      "Cook small pancakes on a non-stick pan until golden, about 2–3 min per side.",
+      "Spread red bean paste between two pancakes to make a sandwich.",
+      "Serve at room temperature."
+    ]
+  }
+]
