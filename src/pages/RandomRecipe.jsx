@@ -1,55 +1,53 @@
-import { useEffect, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { useState } from "react";
+import { Container, Row, Button } from "react-bootstrap";
+import NavigationBar from "../navigation/NavigationBar";
 import FoodCard from "../components/FoodCard";
 import allRecipes from "../data/All_recipes.json";
-import NavigationBar from "../navigation/NavigationBar";
 
-export default function SavedRecipes() {
-  const [savedRecipeIds, setSavedRecipeIds] = useState(() => {
-    return JSON.parse(localStorage.getItem("savedRecipeIds")) || [];
-  });
+export default function RandomRecipe() {
+  const [recipe, setRecipe] = useState(null);
 
-  const [savedRecipes, setSavedRecipes] = useState([]);
-
-  useEffect(() => {
-    const filtered = allRecipes.filter(r => savedRecipeIds.includes(r.id));
-    setSavedRecipes(filtered);
-  }, [savedRecipeIds]);
-
-  const handleUnsave = (recipeId) => {
-    const updated = savedRecipeIds.filter(id => id !== recipeId);
-    setSavedRecipeIds(updated);
-    localStorage.setItem("savedRecipeIds", JSON.stringify(updated));
+  const generateRandomRecipe = () => {
+    const random = allRecipes[Math.floor(Math.random() * allRecipes.length)];
+    setRecipe(random);
   };
-
-  if (savedRecipes.length === 0) {
-    return (
-      <div>
-        <NavigationBar />
-        <h1 style={{ textAlign: "center", paddingTop: "90px" }}>
-          You have no saved recipes!
-        </h1>
-      </div>
-    );
-  }
 
   return (
     <div>
       <NavigationBar />
-      <div style={{ paddingTop: "90px" }}>
-        <h1>Saved Recipes</h1>
+
+      <div style={{ paddingTop: "90px", textAlign: "center" }}>
+        <h1 style={{ marginBottom: "20px" }}>Random Recipe Generator</h1>
+
+        <Button
+          variant="success"
+          onClick={generateRandomRecipe}
+          style={{ marginBottom: "30px" }}
+        >
+          🎲 Get Random Recipe
+        </Button>
+
         <Container>
           <Row>
-            {savedRecipes.map(recipe => (
-              <Col key={recipe.id} xs={12} md={6} lg={4} xl={3}>
-                <FoodCard
-                  {...recipe}
-                  saved={true}
-                  onUnsave={handleUnsave} 
-                />
-              </Col>
-            ))}
+            {recipe && (
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  width: "100%",
+                  marginTop: "20px",
+                }}
+              >
+                <FoodCard {...recipe} />
+              </div>
+            )}
           </Row>
+
+          {!recipe && (
+            <h4 style={{ color: "gray", marginTop: "20px" }}>
+              Click the button to generate a random recipe!
+            </h4>
+          )}
         </Container>
       </div>
     </div>
