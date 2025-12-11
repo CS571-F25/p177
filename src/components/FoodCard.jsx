@@ -14,7 +14,7 @@ const labelMap = {
   carbs_g: "Carbs (g)",
   sodium_mg: "Sodium (mg)",
   fiber_g: "Fiber (g)",
-  sugar_g: "Sugar (g)"
+  sugar_g: "Sugar (g)",
 };
 
 const countryFlags = {
@@ -23,7 +23,7 @@ const countryFlags = {
   France: franceFlag,
   China: chinaFlag,
   Mexico: mexicoFlag,
-  "United States": usFlag
+  "United States": usFlag,
 };
 
 export default function FoodCard(props) {
@@ -38,14 +38,14 @@ export default function FoodCard(props) {
     directions,
     saved,
     toggleSave,
-    onUnsave
+    onUnsave,
   } = props;
 
   const flagSrc = countryFlags[country] || japanFlag;
 
   return (
     <Card className="p-3 m-2 shadow-sm" style={{ width: "100%", minWidth: "250px" }}>
-      
+      {/* Header */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
         <img
           src={flagSrc}
@@ -53,7 +53,8 @@ export default function FoodCard(props) {
           style={{ width: "35px", height: "22px", borderRadius: "3px", objectFit: "cover" }}
         />
 
-        {typeof toggleSave === "function" && (
+        {/* Save button (Explore page) */}
+        {toggleSave && (
           <Button
             variant={saved ? "success" : "outline-success"}
             size="sm"
@@ -64,21 +65,26 @@ export default function FoodCard(props) {
         )}
       </div>
 
-      
-      <Card.Title style={{ textAlign: "center", fontWeight: "bold", marginTop: "10px" }}>
+      <Card.Title
+        style={{
+          textAlign: "center",
+          fontWeight: "bold",
+          marginTop: "10px",
+        }}
+      >
         {name}
       </Card.Title>
 
-      
       <Button
         variant="primary"
-        onClick={() => setShowDetails(prev => !prev)}
+        onClick={() => setShowDetails((prev) => !prev)}
         className="mb-2"
       >
         {showDetails ? "Hide Details" : "Show Details"}
       </Button>
 
-      {typeof onUnsave === "function" && (
+      {/* Remove button (Saved page) */}
+      {onUnsave && (
         <Button
           variant="danger"
           style={{ width: "100%", marginBottom: "10px" }}
@@ -88,7 +94,7 @@ export default function FoodCard(props) {
         </Button>
       )}
 
-      
+      {/* Expanded Details */}
       {showDetails && (
         <div style={{ marginTop: "10px" }}>
           <h3>Nutrition</h3>
