@@ -24,7 +24,7 @@ export default function RandomRecipe() {
           onClick={generateRandomRecipe}
           style={{ marginBottom: "30px" }}
         >
-          🎲 Get Random Recipe
+          Get Random Recipe
         </Button>
 
         <Container>
